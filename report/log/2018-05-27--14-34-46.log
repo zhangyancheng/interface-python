@@ -1,0 +1,17 @@
+2018-05-27 14:34:46,351 - root - INFO - 测试用例开始执行
+2018-05-27 14:34:46,355 - root - INFO - 获取用例数据:{'url': 'http://www.tuling123.com/openapi/api', 'qiwang': 'code=40007', 'key': 'aaaa', 'coneent': "{'password':'1222'}", 'fangshi': 'POST'}
+2018-05-27 14:34:46,358 - root - INFO - 输入参数：url:http://www.tuling123.com/openapi/api,key:aaaa,参数:{'password':'1222'},请求方式：POST
+2018-05-27 14:34:46,523 - root - INFO - 返回结果:{'code': 40007, 'text': '您的请求内容为空。'}
+2018-05-27 14:34:46,525 - root - INFO - 断言结果:code预期值40007 == 实际值40007
+2018-05-27 14:34:46,528 - root - INFO - 测试用例执行完毕
+2018-05-27 14:34:46,530 - root - INFO - 测试用例开始执行
+2018-05-27 14:34:46,532 - root - INFO - 获取用例数据:{'url': 'http://www.tuling123.com/openapi/api\n', 'qiwang': 'code=40002', 'key': 'dfeb1cc8125943d29764a2f2f5c33739', 'coneent': "{'password':'1222'}", 'fangshi': 'POST'}
+2018-05-27 14:34:46,534 - root - INFO - 输入参数：url:http://www.tuling123.com/openapi/api
+,key:dfeb1cc8125943d29764a2f2f5c33739,参数:{'password':'1222'},请求方式：POST
+2018-05-27 14:34:46,647 - root - INFO - 返回结果:{'code': 40007, 'text': '您的请求内容为空。'}
+2018-05-27 14:34:46,650 - root - INFO - 测试用例执行完毕
+2018-05-27 14:34:46,655 - root - INFO - 测试用例开始执行
+2018-05-27 14:34:46,657 - root - INFO - 获取用例数据:{'url': 'https://api.douban.com/v2/photo/:id', 'qiwang': 'code=40002', 'key': 'dfeb1cc8125943d29764a2f2f5c33739', 'coneent': "{'password':'1222'}", 'fangshi': 'GET'}
+2018-05-27 14:34:46,660 - root - INFO - 输入参数：url:https://api.douban.com/v2/photo/:id,key:dfeb1cc8125943d29764a2f2f5c33739,参数:{'password':'1222'},请求方式：GET
+2018-05-27 14:34:48,086 - root - INFO - 返回结果:{'code': 0, 'result': {'request': 'GET /v2/photo/:id', 'code': 1001, 'msg': 'uri_not_found'}}
+2018-05-27 14:34:48,089 - root - INFO - 测试用例执行完毕
