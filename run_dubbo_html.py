@@ -7,7 +7,7 @@ import time
 from Public.get_excel import datacel
 from Public.py_Html import createHtml
 from branch.Dingtalk import send_ding
-from testCase.dubbocase import testdubbointerface
+from testcase.dubbocase import testdubbointerface
 
 
 def start_dubbo_case():

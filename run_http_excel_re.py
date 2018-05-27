@@ -10,7 +10,7 @@ import os
 from  Public.get_excel import datacel
 from  branch.Dingtalk import send_ding
 from  branch.pyreport_excel import create
-from testCase.case import testinterface
+from testcase.case import testinterface
 
 
 def start_excel_report_http():

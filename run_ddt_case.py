@@ -3,7 +3,7 @@ import time
 import unittest
 from branch import BSTestRunner
 from config import globalparam
-from testCase.ddt_case import MyTest
+from testcase.ddt_case import MyTest
 
 if __name__ == '__main__':
     suite = unittest.TestSuite()

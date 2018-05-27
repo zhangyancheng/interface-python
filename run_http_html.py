@@ -6,7 +6,7 @@ import time
 
 from Public.get_excel import datacel
 from Public.py_Html import createHtml
-from testCase.case import testinterface
+from testcase.case import testinterface
 
 
 def start_interface_html_http():
