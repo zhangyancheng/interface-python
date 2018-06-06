@@ -1,9 +1,4 @@
 # encoding: utf-8
-"""
-@author: lileilei
-@file: py_Html.py
-@time: 2017/6/5 17:04
-"""
 import  os
 titles='接口测试'
 def title(titles):

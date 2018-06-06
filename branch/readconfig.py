@@ -1,3 +1,4 @@
+#Author:命命
 #coding=utf-8
 import configparser
 import codecs
@@ -32,4 +33,3 @@ class ReadConfig:
         :return:E:/fengsulian
         """
         return self.cf.get(env, name)
-

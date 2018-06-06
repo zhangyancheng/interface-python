@@ -1,6 +1,5 @@
 #coding=utf-8
 import os
-
 from branch.readconfig import ReadConfig
 
 # Read configuration file
