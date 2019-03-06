@@ -20,19 +20,6 @@ class Interface_xml():
             elem.append(child)
         return elem
 
-    def test_yunda(self):
-        data2 = self.dict_to_xml()
-        data3 = tostring(data2)
-        url = 'http://10.211.95.228:9085/csu/portalengine/accessAuthLogin'
-        r = requests.post(url,data=data3)
-        return r.text
-
-    # def test_yunda(self):
-    #     data2 = self.dict_to_xml()
-    #     data3 = tostring(data2)
-    #     url = 'http://10.211.95.228:9084/cpu/portalengine/getBatchChapterInfos'
-    #     r = requests.post(url,data=data3)
-    #     return r.text
 
     def xml_to_dic(self):
         msg = {}
